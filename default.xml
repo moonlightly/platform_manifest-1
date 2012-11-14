@@ -326,14 +326,6 @@
   <project path="system/security" name="platform/system/security" />
   <project path="system/vold" name="platform/system/vold" />
   <project path="vendor/samsung" name="platform_vendor_samsung" remote="th" revision="jb" />
-  <project path="vendor/" name="android_vendor_xenonhd" remote="th" revision="jellybean" />
-  <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="gh" revision="jellybean" />
-  <project name="TheMuppets/proprietary_vendor_imgtec" path="vendor/imgtec" remote="gh" revision="jellybean" />
-  <project name="TheMuppets/proprietary_vendor_broadcom" path="vendor/broadcom" remote="gh" revision="jellybean" />
-  <project name="TheMuppets/proprietary_vendor_invensense" path="vendor/invensense" remote="gh" revision="jellybean" />
-  <project name="CyanogenMod/android_device_samsung_maguro" path="device/samsung/maguro" remote="github" revision="jellybean" />
-  <project name="CyanogenMod/android_kernel_samsung_tuna" path="kernel/samsung/tuna" remote="github" revision="jb" />
-  <project name="CyanogenMod/android_device_samsung_tuna" path="device/samsung/tuna" remote="github" revision="jellybean" />
 
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="jellybean" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="jellybean" />
