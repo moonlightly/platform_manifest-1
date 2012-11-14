@@ -7,12 +7,6 @@
            fetch="https://github.com/TeamHorizon/" />
   <remote  name="pipe"
            fetch="https://github.com/PipelinerArd/" />
-  <remote  name="TheMuppets"
-           fetch="https://github.com/TheMuppets/"
-           revision="jellybean" />
-  <remote  name="gh"
-           fetch="https://github.com/"
-           revision="master" />
   <remote  name="cm"
            fetch="https://github.com/CyanogenMod/" />
   <default revision="refs/tags/android-4.1.1_r4"
@@ -326,13 +320,6 @@
   <project path="system/security" name="platform/system/security" />
   <project path="system/vold" name="platform/system/vold" />
   <project path="vendor/samsung" name="platform_vendor_samsung" remote="th" revision="jb" />
-  <project name="proprietary_vendor_samsung" path="vendor/samsung" remote="pipe" revision="jellybean-stable" />
-  <project name="proprietary_vendor_imgtec" path="vendor/imgtec" remote="pipe" revision="jellybean-stable" />
-  <project name="proprietary_vendor_broadcom" path="vendor/broadcom" remote="pipe" revision="jellybean-stable" />
-  <project name="proprietary_vendor_invensense" path="vendor/invensense" remote="pipe" revision="jellybean-stable" />
-  <project name="android_device_samsung_maguro" path="device/samsung/maguro" remote="pipe" revision="jellybean-stable" />
-  <project name="android_kernel_samsung_tuna" path="kernel/samsung/tuna" remote="pipe" revision="jellybean-stable" />
-  <project name="android_device_samsung_tuna" path="device/samsung/tuna" remote="pipe" revision="jellybean-stable" />
 
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="jellybean" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="jellybean" />
