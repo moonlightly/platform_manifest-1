@@ -330,9 +330,9 @@
   <project name="proprietary_vendor_imgtec" path="vendor/imgtec" remote="pipe" revision="jellybean-stable" />
   <project name="proprietary_vendor_broadcom" path="vendor/broadcom" remote="pipe" revision="jellybean-stable" />
   <project name="proprietary_vendor_invensense" path="vendor/invensense" remote="pipe" revision="jellybean-stable" />
-  <project name="CyanogenMod/android_device_samsung_maguro" path="device/samsung/maguro" remote="pipe" revision="jellybean-stable" />
-  <project name="CyanogenMod/android_kernel_samsung_tuna" path="kernel/samsung/tuna" remote="pipe" revision="jellybean-stable" />
-  <project name="CyanogenMod/android_device_samsung_tuna" path="device/samsung/tuna" remote="pipe" revision="jellybean-stable" />
+  <project name="android_device_samsung_maguro" path="device/samsung/maguro" remote="pipe" revision="jellybean-stable" />
+  <project name="android_kernel_samsung_tuna" path="kernel/samsung/tuna" remote="pipe" revision="jellybean-stable" />
+  <project name="android_device_samsung_tuna" path="device/samsung/tuna" remote="pipe" revision="jellybean-stable" />
 
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="jellybean" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="jellybean" />
