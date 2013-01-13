@@ -9,6 +9,9 @@
            fetch="https://github.com/"
            review="gerrit.sudoservers.com" />
 
+  <remote  name="cfx"
+           fetch="https://bitbucket.org/codefirex/" />
+
   <remote  name="cm"
            fetch="https://github.com/CyanogenMod/"
            review="review.cyanogenmod.com" />
@@ -375,5 +378,24 @@
 
   <project path="packages/wallpapers/SwagPapers" name="AOKP/packages_wallpapers_SwagPapers_v2" remote="aokp" revision="jb-mr1" />
 
-  <project path="platform_manifest" name="AOKP/platform_manifest" remote="aokp" revision="jb-mr1" />
+  <!-- Roughneck repos -->
+  <project path="platform_manifest" name="PipelinerArd/platform_manifest" remote="github" revision="jb2" />
+  <project path="device/common" name="Andromadus/android_device_common" revision="cm10.1" />
+  <project path="device/htc/ace" name="PipelinerArd/android_device_htc_ace" remote="github" revision="cm-10.1" />
+  <project path="device/htc/common" name="Andromadus/android_device_htc_common" remote="github" revision="jb" />
+  <project path="device/htc/msm7x30-common" name="PipelinerArd/android_device_htc_msm7x30-common" revision="cm10.1" />
+  <project path="frameworks/av" name="Andromadus/android_frameworks_av" revision="cm10.1" />
+  <project path="frameworks/base" name="PipelinerArd/frameworks_base" revision="jb-mr1" />
+  <project path="frameworks/native" name="Andromadus/android_frameworks_native" revision="cm10.1" />
+  <project path="hardware/libhardware" name="Andromadus/android_hardware_libhardware" revision="cm10.1" />
+  <project path="hardware/qcom/audio" name="Andromadus/android_hardware_qcom_audio" revision="Andro4.2" />
+  <project path="hardware/qcom/display" name="Andromadus/android_hardware_qcom_display" revision="jb4.2" />
+  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" revision="jellybean" />
+  <project path="hardware/qcom/media" name="Andromadus/android_hardware_qcom_media" revision="cm10.1" />
+  <project path="kernel/htc/KangBanged-7x30" name="KangBangKreations/KangBanged-7x30" remote="github" revision="kb-stable" />
+  <project path="packages/apps/Camera" name="PipelinerArd/packages_apps_Camera" revision="jb-mr1" />
+  <project path="packages/apps/Settings" name="PipelinerArd/packages_apps_Settings" revision="jb-mr1" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-linaro-4.7" name="Andromadus/android_prebuilts_gcc_linux-x86_arm_arm-eabi-linaro-4.7" revision="jellybean" />
+  <project path="vendor/htc/ace" name="vendor_htc_ace" remote="cfx" revision="jb-devel" />
+  <project path="vendor/qcom/proprietary" name="vendor_qcom_proprietary" remote="cfx" revision="jb-devel" />
 </manifest>
