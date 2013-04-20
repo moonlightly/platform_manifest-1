@@ -397,5 +397,5 @@
   <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="cm" revision="cm-10.1" />
   <project path="vendor/tmobile/themes/SnapBlack" name="vendor-tmobile-themes-SnapBlack" remote="xy" revision="jellybean" />
 
-  <project path="platform_manifest" name="PipelinerArd/platform_manifest" remote="pub" revision="jb4.2" />
+  <project path="platform_manifest" name="PipelinerArd/platform_manifest" remote="pub" revision="jb2" />
 </manifest>
