@@ -57,11 +57,11 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/sample" name="device_sample" remote="xy" revision="jellybean" groups="device" />
-  <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" remote="xy" revision="jb-mr1" groups="device" />
-  <project path="device/samsung/d2att" name="device_samsung_d2att" remote="aokp" revision="jb-mr1" groups="device" />
+  <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" remote="cm" revision="cm-10.1" />
+  <project path="device/samsung/d2att" name="android_device_samsung_d2att" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/d2vzw" name="android_device_samsung_d2vzw" remote="xy" revision="jellybean" groups="device" />
   <project path="device/samsung/d2spr" name="android_device_samsung_d2spr" remote="xy" revision="jellybean" groups="device" />
-  <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="xy" revision="jb-mr1" />
+  <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/omap4-common" name="android_device_samsung_omap4-common" remote="cm" revision="cm-10.1" groups="device" />
   <project path="device/samsung/qcom-common" name="device_samsung_qcom-common" remote="xy" revision="jb-mr1" groups="device" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
@@ -78,7 +78,7 @@
   <project path="external/astl" name="platform/external/astl" />
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluedroid" name="Root-Box/external_bluetooth_bluedroid" remote="pub" revision="jb-mr1" />
+  <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="cm" revision="cm-10.1" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
   <project path="external/busybox" name="external_busybox" remote="xy" revision="jellybean" />
@@ -278,7 +278,7 @@
   <project path="hardware/ti/omap4xxx" name="hardware_ti_omap4xxx" remote="xy" revision="jellybean" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
-  <project path="kernel/samsung/d2" name="kernel_samsung_d2" remote="aokp" revision="jb-mr1" />
+  <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="cm" revision="cm-10.1" />
   <project path="libcore" name="libcore" remote="xy" revision="jellybean" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
