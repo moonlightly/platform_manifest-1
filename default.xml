@@ -147,7 +147,6 @@
   <project path="external/littlemock" name="platform/external/littlemock" />
   <project path="external/llvm" name="platform/external/llvm" />
   <project path="external/lohit-fonts" name="platform/external/lohit-fonts" />
-  <project path="external/lsof" name="Mustaavalkosta/android_external_lsof" remote="github" revison="jb-mv"/>
   <project path="external/lzo" name="CyanogenMod/android_external_lzo" remote="github" revision="cm-10.1" />
   <project path="external/markdown" name="platform/external/markdown" />
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder" />
